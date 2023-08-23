@@ -1,0 +1,19 @@
+body {
+    padding: 0;
+    background-color: darkblue;
+}
+
+#num {
+    width: 90px;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 3px;
+    margin-left: 48.4%;
+    margin-top: 25%;
+}
+
+button {
+    background-color: blueviolet;
+    color: black;
+    margin-left: 50%;
+}

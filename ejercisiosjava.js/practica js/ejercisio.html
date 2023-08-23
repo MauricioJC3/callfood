@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+ <button type="button" onclick="myFunction()">hacer click</button>
+
+ <p id="demo1"></p>
+ <p id="demo2"></p>
+
+
+</body>
+<script>
+
+console.log("*************** boton que al undir aparecen letras ***************");
+
+function myFunction(){
+    document.getElementById("demo1").innerHTML = "hello mauro";
+    document.getElementById("demo2").innerHTML = "hello, how are you?";
+}
+
+
+
+console.log("************************** VAR *******************************");
+    //no es recomendable utilizar la etiqueta var
+    var carro = "ferrari";
+    console.log("cual es el mejor carro del mundo, el mejor carro del mundo es el: ",carro);
+
+
+    var musica ="rock";
+        console.log("variable musica dentro del bloque",musica);
+
+    //al estar dentro de estas llaves una variable que tenga el mismo nombre de otra se va a leer como una variable diferente
+    {
+        var musica ="pop";
+        console.log("variable musica dentro del bloque",musica);
+    }
+    console.log("variable musica despues del bloque del bloque",musica);
+    //el (console.log) va hacer una de las etiquetas que mas vamos a utilizar
+
+
+    console.log("************************** LET *******************************");
+
+
+    let musica2 ="rock";
+        console.log("variable musica dentro del bloque",musica2);
+
+    //al estar dentro de estas llaves una variable que tenga el mismo nombre de otra se va a leer como una variable diferente
+    {
+        let musica2="pop";
+        console.log("variable musica dentro del bloque",musica2);
+    }
+    console.log("variable musica despues del bloque del bloque",musica2);
+
+
+
+    let a, m, j, c;
+    a = 3;
+    m = 6;
+    j = 9;
+    
+    c = a+m*j;
+
+    console.log(c);
+
+    var hola = "eres gout, gout el sin nombre";
+    console.log(hola);
+
+
+
+
+
+
+console.log("************** edad conducir *******************");
+
+
+
+
+    let edad = prompt ("intreduce tu edad");
+    if (Number(edad) == edad); {
+        if (edad > 18) {
+
+            document.write ("puedes conducir");
+        }
+        else {
+        alert("no puedes coinducir no cumples con la edad");
+    }
+    }
+
+
+    
+    console.log("************** imprimir notas *******************");
+    
+
+        // BUCLE PARA QUE PERMITA INTRODUCIR MÁS DE UNA NOTA
+do {
+    // PIDE UNA NOTA POR TECLADO Y LA GUARDA EN LA VARIABLE nota
+    var nota = prompt("Introduce tu nota");
+    // SI SE INTRODUJO UN NÚMERO
+    if (Number(nota) == nota) {
+    // SI LA NOTA ES ENTRE 0 Y 10 COMPRUEBA EL RANGO Y DA UN MENSAJE
+    if (nota > 0 && nota <= 10) {
+        if (nota < 3) {
+            alert("Muy deficiente");
+        }
+        else if (nota < 5) {
+            alert("Insuficiete");
+        } else if (nota < 6) {
+            alert("Suficiente");
+        } else if (nota < 7) {
+            alert("Bien");
+        } else if (nota < 9) {
+            alert("Notable"); 5
+        } else if (nota >= 9) {
+            alert("Sobresaliente");
+        }
+    }
+    // SI LA NOTA NO ES ENTRE 0 Y 10
+    else {
+        alert("Nota erronea");
+    }
+    }
+    // SI LA NOTA INTRODUCIDA NO ES UN NÚMERO
+    else {
+    // SI SE HA PULSADO ACEPTAR SIN INTRODUCIR NADA
+    if (nota != undefined) { //No es Undefined cuando se pulsa aceptar.
+        alert("Introduce un numero valido");
+    }
+    }
+    // EL BUCLE VUELVE ARRIBA MIENTRAS NO SE HAYA PULSADO CANCELAR
+}
+while (nota != undefined); // Undefined es cuando se pulsa Cancelar.
+        
+
+</script>
+
+
+</html>

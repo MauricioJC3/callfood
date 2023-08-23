@@ -1,0 +1,106 @@
+Kamnban -- > letrero u tableros 
+
+fue aplicada por David J. Anderson en 2004
+
+es una metodologia agil sirve para gestionar el trabajo,aparte de mecanismos viusuales
+kanban nos permite visualizar el trabajo por faces lo que nos ayuda a evitar la sobre carga
+y facilita la medicion del tiempo estimado en el cual se deberian completar las tareas.
+
+1).
+esto nos ayuda a saber que tan productivos estamos ciendo 
+
+ se conforma por tres columnas:
+
+-por hacer
+asiendo 
+finalizado
+
+
+cada targeta represemnta un elememnto de trabajo
+y nos dara la informacion que definamos
+
+si una de las tarjetas que esta en el tablero no tiene la suficiente informacion
+para realizarce debe ponerseñle una x la cual indique que no se puede realizar
+
+normal mente se dan capacitaciones
+
+dependiendo el negocio las targetas tendran mas o menos informacion
+
+evitar los cuellos de votellas
+
+lite time
+
+periodo que transcurre desde la aparicion de una nueva tarea y su salida final
+es lo que persive el cliente
+
+cycle time
+
+inicia cuando una nueva tarea entra en la primera etapa y alguien emnpieza a trabajar en ella
+
+no pedir lo que no puedas resolver
+nivela la produccion
+el processo de produccion no puede rtener mas trabajo del que puede manejar
+porque ademas de aumentar sus tiempos la salida sera mas dificil 
+
+no pueden haber cambios sobre el tablero lo que esta en el tablero es lo que es
+analiza el elemento de trabajo
+
+permite ver:
+
+Ver de un vistazo información importante sobre los elementos de trabajo. 
+
+Entregar los productos sin problemas y de manera eficiente. 
+
+Mejorar la eficiencia.
+
+Facilitan la detección de ineficiencias.
+
+Facilitan la entrega justo a tiempo.
+
+Fomentan la colaboración entre equipos.
+
+
+ciclo de desarrolo en cascada
+
+es un met5odo para el dessarorro y la creacion de programas es recomendado para
+el desarrollo de grandres sistemas de software se les representa como un ee
+
+
+se dividen en 4 fases
+
+primera : determinar los objetivos del proyecto
+se deben identificar , elaborar y analizar los objetivos a partir de los requisitos
+de los clientes. requerimientos
+
+realizar estrategias e identificar riesgos
+
+
+segunda : analisis de riego
+analzar y evaluar cada uno de los riesgos ya identificados
+en nuestro proyecto para posterior mente impñlementar alternativas de solucion
+
+tercera : desarrollar y probar
+-e eligen un modelo para su desarrollo
+
+-efinir el diseño del software
+
+-ealizar pruebas para observar su eficiencia
+
+cuarta  : planificacion
+
+consiste en planificar las proximas fases y evaluar la salida del proyecto hasta la fecha antes de
+que el proyecto continue al siguiente espiiral.
+
+nueva version del software ya que esta busca mejorsar sus anteriores faces
+
+ventajas
+
+- es adaptativo pues se puede ir modificando a medida que avanza
+-es un modelo ventajoso en proyectosgrandes
+-al tener un buen control se reduce el riesgo de exceso de gastos
+
+desventajas
+
+-no se aconseja en utilizar en pequeños sitemas
+-se necesita mucho tiempo en el desarrollo del sistema debido a su complejidad
+-se requier3e experiencia en la identificasion de riesgos

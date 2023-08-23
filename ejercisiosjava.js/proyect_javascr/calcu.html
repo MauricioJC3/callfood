@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+
+    let currentOperator = null;
+let firstOperand = 0;
+let secondOperand = 0;
+
+function updateDisplay(value) {
+    document.getElementById('display').textContent = value;
+}
+
+function appendNumber(number) {
+    const displayValue = document.getElementById('display').textContent;
+    const newValue = displayValue === '0' ? number : displayValue + number;
+    updateDisplay(newValue);
+}
+
+function setOperator(operator) {
+    currentOperator = operator;
+    firstOperand = parseFloat(document.getElementById('display').textContent);
+    updateDisplay('0');
+}
+
+function calculate() {
+    secondOperand = parseFloat(document.getElementById('display').textContent);
+    let result;
+
+    switch (currentOperator) {
+        case '+':
+            result = firstOperand + secondOperand;
+            break;
+        case '-':
+            result = firstOperand - secondOperand;
+            break;
+        case '*':
+            result = firstOperand * secondOperand;
+            break;
+        case '/':
+            if (secondOperand !== 0) {
+                result = firstOperand / secondOperand;
+            } else {
+                result = "Error: Division by zero";
+            }
+            break;
+        default:
+            result = "Error";
+            break;
+    }
+
+    updateDisplay(result);
+}
+
+function clearDisplay() {
+    currentOperator = null;
+    firstOperand = 0;
+    secondOperand = 0;
+    updateDisplay('0');
+}
+
+
+
+
+</script>
+<body>
+    <div class="calculator">
+        <div class="display" id="display">0</div>
+        <button class="number" onclick="appendNumber('7')">7</button>
+        <button class="number" onclick="appendNumber('8')">8</button>
+        <button class="number" onclick="appendNumber('9')">9</button>
+        <button class="operator" onclick="setOperator('+')">+</button>
+        <button class="number" onclick="appendNumber('4')">4</button>
+        <button class="number" onclick="appendNumber('5')">5</button>
+        <button class="number" onclick="appendNumber('6')">6</button>
+        <button class="operator" onclick="setOperator('-')">-</button>
+        <button class="number" onclick="appendNumber('1')">1</button>
+        <button class="number" onclick="appendNumber('2')">2</button>
+        <button class="number" onclick="appendNumber('3')">3</button>
+        <button class="operator" onclick="setOperator('*')">*</button>
+        <button class="clear" onclick="clearDisplay()">C</button>
+        <button class="number" onclick="appendNumber('0')">0</button>
+        <button class="operator" onclick="setOperator('/')">/</button>
+        <button class="equals" onclick="calculate()">=</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script type="text/javascript">
+
+    function Enlace(valor){
+        alert("haz click y haz una funcion con valor = "+ valor)
+    }
+
+function Mensaje(valor){
+var section = valor.id;
+
+alert("has echo algo raro: "+ section);
+}
+
+//hacer una calculadora con javascript totalmente funcional
+
+
+</script>
+<body>
+
+    <section style="width: 300px; height:200px;background:red;display:inline-block; " id="1" onclick="Mensaje(this)"></section>
+    <section style="width: 300px; height:200px;background:rgb(7, 105, 202);display:inline-block;" id="2" onclick="Mensaje(this)"></section>
+    <section style="width: 300px; height:200px;background:rgb(255, 255, 0);display:inline-block;"id="3" onclick="Mensaje(this)" ></section>
+
+    <!-- <a href="javascript: Enlace(56)">hacer clik</a> -->
+
+
+    <section onmouseenter="alert('eres gout, gout el sin nombre el asesiono de dioses')" style="width: 300px; height:200px;background:red;display:inline-block; "></section>
+    <section onmousedown="alert('soy un hombre abandonado por los mismos nombres')" style="width: 300px; height:200px;background:rgb(0, 255, 238);display:inline-block; "></section>
+    <section onmouseleave="alert('eres gout, gout el sin nombre el asesiono de dioses')" style="width: 300px; height:200px;background:rgb(11, 234, 44);display:inline-block; "></section>
+    <section onmo="alert('eres gout, gout el sin nombre el asesiono de dioses')" style="width: 300px; height:200px;background:rgb(255, 0, 187);display:inline-block; "></section>
+
+
+</body>
+</html>

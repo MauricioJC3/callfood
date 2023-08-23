@@ -1,0 +1,226 @@
+    // Assign the value 5 to x
+let x = 5;
+// Assign the value 2 to y
+let y = 2;
+// Assign the value x + y to z
+let z = x + y;
+// Display z
+ alert("The sum of x + y is: " + z);
+
+
+let x = 5;
+let y = 2;
+let z = x * y;
+
+alert("el resultado es: " +z)
+
+
+
+let a = 3;
+let x = (100 + 50) * a;
+
+alert("el resultado es: " +x)
+
+
+
+let text1 = "A";
+    let text2 = "B";
+    let result = text1 < text2;
+
+    alert("Is A less than B? " +result);
+
+let text1 = "20";
+    let text2 = "5";
+    let result = text1 < text2; 
+
+    alert("Is 20 less than 5? " +result);
+
+
+ let text1 = "John";
+    let text2 = "Doe";
+    let text3 = text1 + " " + text2;
+
+    alert(" " +text3);
+
+
+    let text1 = "What a very ";
+text1 += "nice day"; 
+
+    alert(" " +text1);
+
+
+ let x = 5 + 5;
+let y = "5" + 5;
+let z = "Hello" + 5;
+alert(" " +x + "<br>" + y + "<br>" + z);
+
+	comparacion
+
+5 es igual a 8
+
+    let x = 5;
+    let y = 8;
+    
+ alert(x == 8);
+
+false
+
+
+5 es igual a 5
+
+  let x = 5;
+    let y = 5;
+    
+ alert(x == 5);
+
+true
+
+
+5 es igual a 5
+
+  let x = 5;
+    let y = 5;
+    
+ alert(x == "5");
+
+true
+
+
+5 es igual a 5
+    let x = 5;
+    let y = 5;
+    
+ alert(x === 5);
+
+true
+
+
+5 es igual a 5
+let x = 5;
+    let y = 5;
+    
+ alert(x === "5");
+
+false 
+
+
+  let x = 5;
+  
+ alert(x != 8);
+false
+
+
+let x = 5;
+     
+ alert(x !== 5);
+true
+
+
+ let x = 5;
+    
+ alert(x !== "5" );
+
+true
+
+
+let x = 5;
+    
+ alert(x !== 8 );
+true
+
+
+ let x = 5;
+    
+ alert(x > 8);
+false
+
+
+let x = 5;
+    
+ alert(x < 8);
+true
+
+
+
+  let x = 5;
+    
+ alert(x >= 8);
+false
+
+
+let x = 5;
+    
+ alert(x <= 8);
+true
+
+
+operaciones logicas
+
+let x = 6;
+    let y = 3;
+    
+ alert((x < 10 && y > 1));
+true
+
+
+let x = 6;
+    let y = 3;
+(x < 10 && y < 1);
+false
+
+let x = 6;
+    let y = 3;
+    
+   alert (x == 5 || y == 5)
+false--> porque ninguna de las dos bariables daddas se asemeja
+
+let x = 6;
+    let y = 3;
+    
+   alert (x == 6 || y == 0)
+true
+
+
+let x = 6;
+    let y = 3;
+    
+   alert (x == 0 || y == 3)
+true
+
+ let x = 6;
+    let y = 3;
+    
+   alert (x == 6 || y == 3);
+true
+
+let x = 6;
+    let y = 3;
+    
+   alert (!(x === y));
+true--> x es mayor que 3
+
+
+let x = 6;
+    let y = 3;
+    
+   alert (!(x > y));
+false-->x es menor que y
+
+
+Comparando diferentes tipos
+
+
+
+
+
+
+busca:
+https://www.w3schools.com/js/js_comparisons.asp
+
+1)diferencia entre declarar y asignar una variable
+declarar: cuando declaramos una variable, le asignamos un nombre a determinada función.
+asignar: consiste en reemplazar el valor anterior o inicial de la variable con un valor nuevo. 
+
+2)cuando y porque se utilizan VAR,LET,COUNT
+3)tipos de datos utilizados en JS (ejemplos)
+4)operadores(operadores aritmetico,operadores de asignacion,operadores de cadenas,operadores logicas,operadores conducionales,operadores a nivel de bit,operadores 5)de control(operador temario,operador tipeof))

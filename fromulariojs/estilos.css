@@ -1,0 +1,51 @@
+#formulario{
+    display: grid;
+    place-items: center;
+    margin-top: 300px;
+   
+}
+
+#tamaño1{
+    width: 400px;
+    height: 35px;
+    text-align: center;
+   
+}
+
+#tamaño2{
+    width: 400px;
+    height: 35px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#tamaño3{
+    width: 400px;
+    height: 35px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#tamaño4{
+    width: 400px;
+    height: 35px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#tamaño5{
+    width: 400px;
+    height: 35px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#boton{
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 200px; height: 35px;
+}
+#boton:hover{
+    background-color: rgb(21, 168, 38);
+}
+
